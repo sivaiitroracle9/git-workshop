@@ -1,0 +1,49 @@
+pwd
+    lists present working directory
+
+ls
+  directory listing
+
+cd [directory-name]
+
+mkdir [directory-name]
+
+git init
+
+git add 
+	--> 
+		1. To add the untracked files, so that they can be tracked.
+		2. To update the files i.e. to track this modifications.
+
+commiting --> Taking the snapshot of the current version of the files.
+
+git commit -m '[message]'
+
+git log 
+	--> shows the log of all the commits.
+
+git log --oneline 
+	--> shows the log as the compressed version.
+
+git diff
+	--> Shows what has changed between the staging area and the working directory.
+
+GIT Branching	--> working on different things with isolation.
+
+git branch [Name-featureA]
+	--> This creates a new branch for featureA.
+
+git checkout [branch-name]
+	--> Switches to branch [branch-name].
+
+git checkout [commit-id]
+	--> switches to [commit-id]
+
+git revert --no-edit [commit-id]
+	Reverses [commit-id] commit by making another commit.
+
+git reset --hard
+	--> Resets the head. It builds the whole file from the commit history. ** All the unsaved/uncommited changes will
+	    be lost.
+
+
